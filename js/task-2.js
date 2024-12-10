@@ -1,12 +1,12 @@
 function makeArray(firstArray, makeArray, maxLength){
 
- let finishArray = firstArray.concat(makeArray);
+ let secondArray = firstArray.concat(makeArray);
 
- if(finishArray.length > maxLength){
-     return   finishArray.slice(0, [maxLength]);
+ if(secondArray.length > maxLength){
+     return   secondArray.slice(0, maxLength);
 
 }
-     return finishArray
+     return secondArray
     
 }
 
